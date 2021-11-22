@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+
+#ofertasHeader{
+    background-color: #D1891C;
+    font-size: 15px;
+    padding: 5px 22px;
+}
+
+h1{
+    background-color: #00669F;
+    padding: 20px 22px 20px;
+    font-size: 25px;
+    color:white;
+    font-weight: normal;
+}
+
+.sticky{
+    background-color: #00669F;
+    padding: 10px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    position: sticky;
+    left: 95vw;
+    top: 50vh;
+    z-index: 1500;
+}
+
+section{
+    
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+article{
+    display: inline-block;
+    width: 80vw;
+    max-width: 350px;
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0px 0px;
+    text-align: center;
+    height: 90vh;
+    
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.oculto{
+    display: none;
+}
+
+.banner1{
+    background-image: url('../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    text-align: initial;
+}
+
+.banner2{
+    background-image: url('../img/maravillaBack.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    text-align: initial;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.banner3{
+    background-image: url('../img/superBack.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    text-align: initial;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.banner4{
+    background-image: url('../img/quinn-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    text-align: initial;
+    border-radius: 16px 16px 0px 0px;
+}
+
+div i{
+    color: red;
+    padding: 10px;
+}
+
+.contenido{
+    position: absolute;
+    top: 110px;
+  
+}
+
+article img{
+   border-radius: 50%;
+   z-index: 100;
+   width: 120px;
+   height: 120px;
+}
+
+
+h3{
+    text-transform: uppercase ;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+p{
+    padding: 5px 16px 0px;
+    font-size: 16px;
+    text-align: initial;
+}
+
+.button{
+    background-color: #00669F;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+footer{
+    color: white;
+    background-color: #00669F;
+    padding: 3px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    font-size: 8px;
+}
+
+footer img{
+   width: 40px;
+   position: absolute;
+   left: 84vw;
+}
+
+
+
+
+
+span{
+    text-transform: uppercase;
+}
+
+@media (min-width: 700px){
+      h1{
+          font-size: 40px;
+      }
+
+      section{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+      }
+      
+      article{
+          width: 44vw;
+          
+      }
+
+     .texto{
+         height: 25vh;
+     }
+
+      .oculto{
+          display: inline-block;
+      }
+
+      footer{
+          font-size: 14px;
+      }
+      
+      footer img{
+        width: 60px;
+        position: absolute;
+        left: 90vw;
+     }
+}
+
+@media (min-width: 1050px){
+    article{
+        width: 22vw;
+        height: 610px;
+    }
+
+    .texto{
+        height: 38vh;
+    }
+
+    .button{
+        margin-top: 15px;
+    }
+    footer p{
+        width: 400px;
+        
+    }
+}
